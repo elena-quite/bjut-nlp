@@ -17,7 +17,6 @@ def write_file(file_name, content):
     f.write(content)
     f.close()
 
-
 #利用分词工具jieba，分词并写入split.txt
 def cutwords():
 
@@ -32,7 +31,6 @@ def cutwords():
     line_num = 1
     line = f.readline()
     while line:
-
         # 第一次分词，用于移除标点等符号
         line_seg = " ".join(jieba.cut(line))
         # 移除标点等需要删除的符号
@@ -42,6 +40,7 @@ def cutwords():
             te2.append(i)
             if i in all_punc:
                 te2.remove(i)
+
         # 返回的te2是个list，转换为string后少了空格，因此需要再次分词
         # 第二次在仅汉字的基础上再次进行分词
         line_seg2 = " ".join(jieba.cut(''.join(te2)))
@@ -50,7 +49,6 @@ def cutwords():
         line = f.readline()
     f.close()
     target.close()
-
 
 if __name__ == '__main__':
     cutwords()

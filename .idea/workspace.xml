@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d43f0c-6c26-4305-82a2-dc8a87af2aad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/entropy/split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/entropy/split.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entropy/unigram.py" beforeDir="false" afterPath="$PROJECT_DIR$/entropy/unigram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entropy/entropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy/cutwords.py" beforeDir="false" afterPath="$PROJECT_DIR$/entropy/cutwords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy/unigram.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entropy/cutwords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="1275">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#1#13#0" expanded="true" />
               </folding>
@@ -26,10 +28,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entropy/unigram.py">
+        <entry file="file://$PROJECT_DIR$/entropy/entropy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="250">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -62,14 +64,15 @@
         <option value="$PROJECT_DIR$/entropy/try" />
         <option value="$PROJECT_DIR$/entropy/cutwords.py" />
         <option value="$PROJECT_DIR$/entropy/unigram.py" />
+        <option value="$PROJECT_DIR$/entropy/entropy.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="y" value="19" />
-    <option name="width" value="1623" />
-    <option name="height" value="1014" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-530" />
+    <option name="y" value="31" />
+    <option name="width" value="1580" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,7 +226,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entropy/unigram.py" />
+      <option name="SCRIPT_NAME" value="H:\bjut-nlp\entropy\entropy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,12 +275,12 @@
       <workItem from="1591290230920" duration="765000" />
       <workItem from="1591292559876" duration="1350000" />
       <workItem from="1591346867020" duration="15000" />
-      <workItem from="1591348351746" duration="6912000" />
+      <workItem from="1591348351746" duration="10478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51342000" />
+    <option name="totallyTimeSpent" value="54908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,15 +292,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="1" width="1082" height="676" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12792969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105901375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.3290441" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72514147" visible="true" weight="0.20955883" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72514147" visible="true" weight="0.24378109" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +327,7 @@
     <SUITE FILE_PATH="coverage/bjut_nlp$3.coverage" NAME="3 Coverage Results" MODIFIED="1591350578615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dm$jieba1.coverage" NAME="jieba1 Coverage Results" MODIFIED="1590042993917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bjut_nlp$cutwords.coverage" NAME="cutwords Coverage Results" MODIFIED="1591357026495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entropy" />
-    <SUITE FILE_PATH="coverage/bjut_nlp$unigram.coverage" NAME="unigram Coverage Results" MODIFIED="1591357279959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entropy" />
+    <SUITE FILE_PATH="coverage/bjut_nlp$unigram.coverage" NAME="unigram Coverage Results" MODIFIED="1591360557327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entropy" />
     <SUITE FILE_PATH="coverage/dm$3.coverage" NAME="3 Coverage Results" MODIFIED="1590667295501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -369,16 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entropy/cutwords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#1#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entropy/split.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
@@ -386,10 +379,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entropy/unigram.py">
+    <entry file="file://$PROJECT_DIR$/entropy/cutwords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="1275">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entropy/entropy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
