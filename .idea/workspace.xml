@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d43f0c-6c26-4305-82a2-dc8a87af2aad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/entropy/entropy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entropy/cutwords.py" beforeDir="false" afterPath="$PROJECT_DIR$/entropy/cutwords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entropy/unigram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entropy/entropy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -35,6 +32,18 @@
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,6 +74,7 @@
         <option value="$PROJECT_DIR$/entropy/cutwords.py" />
         <option value="$PROJECT_DIR$/entropy/unigram.py" />
         <option value="$PROJECT_DIR$/entropy/entropy.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -87,11 +97,6 @@
             <path>
               <item name="bjut-nlp" type="b2602c69:ProjectViewProjectNode" />
               <item name="bjut-nlp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bjut-nlp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bjut-nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="entropy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,12 +280,12 @@
       <workItem from="1591290230920" duration="765000" />
       <workItem from="1591292559876" duration="1350000" />
       <workItem from="1591346867020" duration="15000" />
-      <workItem from="1591348351746" duration="10478000" />
+      <workItem from="1591348351746" duration="10614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54908000" />
+    <option name="totallyTimeSpent" value="55044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,12 +300,12 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105901375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105901375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.3290441" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72514147" visible="true" weight="0.24378109" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72514147" visible="true" weight="0.24378109" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,6 +401,16 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
