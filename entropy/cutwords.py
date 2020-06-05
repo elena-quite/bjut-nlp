@@ -1,4 +1,7 @@
 import jieba
+import jieba.analyse
+import codecs
+from string import punctuation
 
 def read_file(file_name):
     f = open(file_name, "r", encoding="utf-8")
@@ -17,13 +20,40 @@ def write_file(file_name, content):
 
 #利用分词工具jieba，分词并写入split.txt
 def cutwords():
-    content = read_file("全能奇才.txt")
-    for line in content:
-        seg_list = jieba.cut(line, cut_all=False, HMM=True)
-        fd1str = " ".join(seg_list)
-        write_file("split.txt", fd1str)
 
+    # 定义要删除的标点等字符
+    add_punc = '，。、【 】 “”：；（）《》‘’{}？！⑦()、%^>℃：.”“^-——=&#@￥ …'
+    all_punc = punctuation + add_punc
+
+    f = codecs.open('全能奇才.txt', 'r', encoding="utf8")
+    # 指定分词结果的保存文本
+    target = codecs.open("split.txt", 'w', encoding="utf8")
+
+    line_num = 1
+    line = f.readline()
+    while line:
+
+        # 第一次分词，用于移除标点等符号
+        line_seg = " ".join(jieba.cut(line))
+        # 移除标点等需要删除的符号
+        testline = line_seg.split(' ')
+        te2 = []
+        for i in testline:
+            te2.append(i)
+            if i in all_punc:
+                te2.remove(i)
+        # 返回的te2是个list，转换为string后少了空格，因此需要再次分词
+        # 第二次在仅汉字的基础上再次进行分词
+        line_seg2 = " ".join(jieba.cut(''.join(te2)))
+        target.writelines(line_seg2)
+        line_num = line_num + 1
+        line = f.readline()
+    f.close()
+    target.close()
 
 
 if __name__ == '__main__':
     cutwords()
+
+
+
