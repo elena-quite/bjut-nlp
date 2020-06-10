@@ -42,7 +42,6 @@ def cutwords():
                 te2.remove(i)
 
         # 返回的te2是个list，转换为string后少了空格，因此需要再次分词
-        # 第二次在仅汉字的基础上再次进行分词
         line_seg2 = " ".join(jieba.cut(''.join(te2)))
         target.writelines(line_seg2)
         line_num = line_num + 1

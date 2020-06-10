@@ -58,8 +58,9 @@ def ca_entropy(file_name):
     for single_word in bigram.items():
         pxy = single_word[1] / bigram_words
         px_y = single_word[1] / wordfrequency[single_word[0][0]]
+        logpx_y = math.log(px_y, 2)
         temp = entropy
-        entropy = (-pxy) * px_y
+        entropy = (-pxy) * logpx_y
         entropy = entropy + temp
     print("二元模型信息熵为：",entropy)
 
